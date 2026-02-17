@@ -1,0 +1,26 @@
+[package]
+name = "rust_toolkit"
+version = "0.1.0"
+edition = "2021"
+
+# Project metadata
+authors = ["Moringa School Capstone Student"]
+description = "A beginner's toolkit for learning Rust programming"
+keywords = ["rust", "tutorial", "beginner", "learning", "cli"]
+readme = "README.md"
+
+[dependencies]
+# No external dependencies - using only Rust standard library!
+# This keeps the project simple for beginners
+
+[[example]]
+name = "hello_world"
+path = "examples/hello_world.rs"
+
+[[example]]
+name = "user_input"
+path = "examples/user_input.rs"
+
+[[example]]
+name = "data_types"
+path = "examples/data_types.rs"
